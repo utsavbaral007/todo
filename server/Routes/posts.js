@@ -55,4 +55,4 @@ router.patch('/edit/:postId', async (req, res) => {
 		res.send({ message: err })
 	}
 })
-module.exports = router
+module.exports = router 
